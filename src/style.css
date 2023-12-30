@@ -1,0 +1,38 @@
+ *{
+    margin: 0;
+    max-width: 100%;
+    padding-left: 20px;
+    color: rgb(126, 153, 137);
+    align-content: center;
+    align-items: center; 
+    
+ }
+ .square{
+   background-color: black;
+   margin: 2px;
+   border: red ;
+   padding: 20px;
+   display: inline-block;
+   
+} 
+.button {
+    display: inline-block;
+    padding: 10px 10px; /* Set fixed padding for the button */
+    font-size: 1em; /* Set the base font size in relative units */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color:black;
+    color: #ffffff;
+    width: 50px; /* Set a fixed width for the button */
+    height: 40px; /* Set a fixed height for the button */
+    overflow: hidden; /* Hide any overflow text */
+    text-overflow:clip; /* Show an ellipsis (...) for overflow text */
+}
+.button:hover {
+    background-color:grey;
+    color: #ffffff;
+}
+
+
+
